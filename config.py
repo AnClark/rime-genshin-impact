@@ -39,6 +39,8 @@ exports = {
         # For custom generator functions, just give the function itself.
         "use": "rime",
         "kwargs": {
+            # Explicitly specify dictionary name, otherwise it will be "moegirl".
+            "name": "GenshinImpact",
             # Destination dictionary filename. (optional)
             "output": "GenshinImpact.dict.yml"
         }
