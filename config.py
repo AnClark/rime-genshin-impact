@@ -12,13 +12,13 @@ exports = {
         "api_path": "https://wiki.biligame.com/ys/api.php",
         # Title file path, if to fetch titles from local file. (optional)
         # Only works if api_path is absent.
-        "file_path": "titles.txt",
+        #"file_path": "titles.txt",
         "kwargs": {
             # Title number limit for online fetching. (optional)
             # Only works if api_path is provided.
             #"title_limit": 120,
             # Title list export path. (optional)
-            "output": "titles.txt"
+            #"output": "titles.txt"
         }
     },
     # Tweaks configurations as an list.
